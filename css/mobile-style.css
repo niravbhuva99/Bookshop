@@ -1,0 +1,46 @@
+@media only screen and (max-width: 768px) {
+  header .container-fluid .navbar {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .panel p,
+  h1 {
+    color: white;
+  }
+  .section-1 .panel {
+    position: absolute;
+    top: -650px;
+    width: 300px;
+    left: 50px;
+    height: initial;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .section-1 img {
+    width: 375px;
+  }
+  .numbers .rect {
+    width: 8rem;
+    height: 8rem;
+  }
+  .numbers .rect h1 {
+    font-size: 2rem;
+  }
+  .download {
+    height: initial;
+    padding: 10vmin !important;
+  }
+  .download h1 {
+    padding: 6vmin 4vmin !important;
+  }
+  .download p {
+    font-size: 25px;
+    color: aliceblue;
+  }
+  .purchase .cards .card .card-title {
+    font-size: 5vmin;
+  }
+  .purchase .cards .card p {
+    font-size: 4vmin;
+  }
+}

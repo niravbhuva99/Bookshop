@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Noto+Sans:wght@100&family=Patua+One&family=Rubik:wght@300&family=Sniglet&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+header,
+section {
+  overflow-x: hidden;
+}
+:root {
+  --Lobster: "Lobster", cursive;
+  --Patua: "Patua One", cursive;
+  --Rubic: "Rubik", sans-serif;
+  --single-font: "Sniglet", cursive;
+  --light-black: #2e2c2caf;
+  --bggradient: liner-gradient(to bottom, #dd2476, #ff512f);
+  --light-grey: rgba(255, 255, 255, 0.7);
+}
+header {
+  background: #f953c6;
+  background: -webkit-linear-gradient(to right, #b91d73, #f953c6);
+  background: linear-gradient(to bottom, #b91d73, #ff512f);
+}
+.nav-link {
+  font-family: var(--single-font);
+  font-size: 1rem;
+  color: white;
+}
+.dropdown-menu {
+  display: none;
+}
+.dropdown-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-menu a:hover {
+  background-color: #ddd;
+}
+.drop-link:hover .dropdown-content {
+  display: block;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-brand i {
+  font-size: 40px;
+  color: white;
+}
+
+.navbar-brand i:hover {
+  color: rgb(120, 120, 244);
+}
+header .nav-item:last-child {
+  padding-right: 6rem;
+}
+header .nav-item {
+  padding: 1rem;
+}
+/* .buy {
+  background-color: white;
+  border: none;
+  color: black;
+  font-weight: 600;
+  border-radius: 20px;
+} */
+
+/* section1 */
+.section1 {
+  padding: 20vmin 0;
+}
+
+.back-img {
+  opacity: 0.8;
+  width: 80%;
+  height: 700px;
+}
+
+.side {
+  position: relative;
+}
+.panel {
+  position: absolute;
+  top: 7vmin;
+  left: -18vmin;
+  background-color: whitesmoke;
+  border-radius: 3px;
+  text-align: left;
+  padding: 13vmin 5vmin 20vmin 10vmin;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  font-family: var(--Rubic);
+}
+.panel h1 {
+  font-weight: bold;
+  padding: 0.4rem 0;
+  font-size: 2rem;
+}
+
+.panel p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 0.9rem;
+}
+
+/* section-2 */
+.cover {
+  width: 100%;
+  height: 55vmin;
+  background: url("https://cdn.pixabay.com/photo/2023/06/16/05/26/grassland-8066987_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 150%;
+  position: relative;
+}
+.cover .content {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  padding-top: 19vmin;
+}
+
+.cover .content > h1 {
+  font-family: var(--Patua);
+  font-size: 6vmin;
+  color: whitesmoke;
+}
+
+.content > p {
+  font-family: var(--Rubic);
+  font-size: 2vmin;
+  color: #e5e5e5;
+}
+
+.numbers .rect {
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  width: 17rem;
+  height: 12rem;
+  padding-top: 3.5vmin;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.1);
+}
+.numbers {
+  margin-top: -15vmin;
+}
+
+.numbers h1 {
+  font-size: 5rem;
+  color: tomato;
+}
+
+.numbers p {
+  font-family: var(--Patua);
+}
+.purchase h1 {
+  padding-top: 15vmin;
+  padding-bottom: 0.1em;
+  font-family: var(--Lobster);
+}
+.purchase p {
+  color: var(--light-black);
+  font-size: 3vmin;
+  padding-bottom: 10vmin;
+}
+.cards .card {
+  width: 22rem;
+  margin: 3vmin;
+}
+.cards h2 p {
+  padding: 0;
+  margin: 0;
+}
+
+.card-title {
+  padding: 1.4rem 2.5rem;
+  font-size: 2vmin;
+  background: rgba(208, 241, 241, 0.1);
+}
+
+.card-text {
+  padding: 1.5rem 2rem;
+  color: var(--light-black);
+}
+
+.price {
+  background: rgba(208, 241, 241, 0.1);
+  border-top-right-radius: 170px;
+  border-top-left-radius: 170px;
+}
+
+.download {
+  margin-top: 15vmin;
+  padding-bottom: 10rem;
+  background: #f953c6;
+  background: -webkit-linear-gradient(to right, #b91d73, #f953c6);
+  background: linear-gradient(to bottom, #b91d73, #ff512f);
+}
+.download h1 {
+  padding: 1em 0 0.5em 0;
+  color: whitesmoke;
+  font-size: 6vmin;
+}
+.desktop {
+  display: inline-block;
+  background-color: white;
+  padding: 2vmin 4.5vmin;
+  border-radius: 3em;
+}
+
+.section-4 {
+  margin-top: 200px;
+}
+
+.section-4 h1 {
+  font-size: 6vmin;
+  padding-top: 14vmin;
+}
+
+.section-4 .team {
+  padding: 10vmin 4vmin;
+}
+
+.section-4 .cards {
+  width: 22rem;
+  padding-top: 1rem;
+}
+.section-4 .card .card-text {
+  padding: 0.5em;
+}
+
+.section-4 .card .card-body a {
+  font-size: 1.5em;
+}
+
+.section-4 .carousel-item {
+  padding: 1rem;
+}
+.section-4 img {
+  padding: 1rem;
+}
+
+.border-radius {
+  border-radius: 340px;
+  width: 60%;
+}
+#carouselExampleSlidesOnly img {
+  width: 215px;
+  height: 215px;
+}
+
+/* footer */
+footer {
+  background: rgba(0, 0, 0, 0.7);
+  overflow-x: hidden;
+  padding: 14vmin 18vmin;
+}
+
+footer input {
+  border: none !important;
+}
+footer input::placeholder {
+  color: white !important;
+}
+footer .input-group .input-group-text {
+  border: none;
+}
+
+footer i {
+  color: #dd2476;
+  padding: 0.5rem;
+}
